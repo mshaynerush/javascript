@@ -3,7 +3,7 @@ if ( document.readyState == 'loading' ) {
 }
 
 function ready(){
-var alertBtn = document.getElementsByClassName('alert-button')[0];
+var alertBtn = document.getElementByID('alertOne');
     alertBtn.addEventListener('click', doAlert);
 }
 function doAlert(){
