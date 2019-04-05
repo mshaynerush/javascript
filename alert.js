@@ -1,6 +1,6 @@
 if ( document.readyState == 'loading' ) {
     window.addEventListener('DOMContentLoaded', ready)
-}
+} 
 
 function ready(){
 var alertBtn = document.getElementById('alertOne');
