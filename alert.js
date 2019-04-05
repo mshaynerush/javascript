@@ -1,4 +1,4 @@
-if ( document.readyState == 'loading) {
+if ( document.readyState == 'loading') {
     addEventListener('DOMContentLoaded', ready)
 }
 
